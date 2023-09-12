@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: #e3e3e3;
+}
+.continer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.continer .imgs {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+}
+.continer .imgs .message {
+  height: 70%;
+  transform: translate(35px, 25px);
+}
+.continer .imgs .cj {
+  position: absolute;
+  height: 100%;
+  top: 30vh;
+  border-radius: 25px;
+  z-index: -1;
+}
+.continer .text {
+  text-align: center;
+  transform: translate(0, 30vh);
+}
+.continer .text h3 {
+  font-size: 2.5em;
+  color: #3a0346;
+  font-weight: 900;
+}
+p img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (min-width: 100px) and (max-width: 600px) {
+  .continer .imgs .message {
+    width: 270px;
+    height: 20vh;
+    transform: translate(0px, 25px);
+  }
+  .continer .imgs .cj {
+    width: 270px;
+    height: 40vh;
+    top: 20vh;
+  }
+  .continer .text {
+    transform: translate(0, 100px);
+  }
+  .continer .text h3 {
+    font-size: 1.5em;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 767px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
